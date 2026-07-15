@@ -27,3 +27,5 @@ console.log(typeof state); //object
 console.log(typeof accNo); //undefined
 console.log(typeof num); //number
 console.log(typeof null);
+
+// console.log(typeof(age));

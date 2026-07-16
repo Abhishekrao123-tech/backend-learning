@@ -39,3 +39,13 @@ console.log(booleanisloggedin);
 "ABC" = true
 null=false,undefined = false;
 */
+
+let num = 9874;
+
+// let valueinnum = Symbol(num);
+let valueinnum = String(num);
+// let valueinnum = BigInt(num);
+// let valueinnum = Object(num);
+
+console.log(typeof valueinnum);
+console.log(valueinnum);

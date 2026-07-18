@@ -1,7 +1,7 @@
 let name = "Daemon Targerean";
 let age = 34;
-console.log(`My name is ${name} and My age is ${age}`);
-
+// ``(backticks) syntax
+console.log(`My name is ${name} and My age is ${age}`); //  ` =>backtick
 sname = name[7];
 console.log(sname);
 

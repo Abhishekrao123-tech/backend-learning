@@ -1,3 +1,7 @@
+// () -> parenthesis
+// [] -> square brackets
+// {} -> curly braces
+
 console.log("Abhishek Rao");
 
 const accNo = 12254;

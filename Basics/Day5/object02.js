@@ -2,7 +2,7 @@
 const tinderUser = {};
 tinderUser.id = "01";
 tinderUser.name = "Abhishek";
-tinderUser.isLoggedIn = false;
+tinderUser.isLoggedIn = "false";
 
 // console.log(tinderUser);
 
@@ -27,4 +27,28 @@ const obj2 = { 3: "a", 4: "b" };
 
 const obj3 = { ...obj1, ...obj2 };
 
-console.log(obj3);
+// console.log(objṢS3);
+
+const users = [
+  {
+    id: 1,
+    email: "abhishek@google.com",
+  },
+  {
+    id: 1,
+    email: "abhishek@google.com",
+  },
+  {
+    id: 1,
+    email: "abhishek@google.com",
+  },
+];
+users[1].email;
+console.log(users[0].id);
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); //array in array
+
+console.log(tinderUser.hasOwnProperty("isLoggedIn"));
